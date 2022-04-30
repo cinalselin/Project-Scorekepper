@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Orbitron&display=swap');
+
+/* font-family: 'Orbitron', sans-serif; */
+/* Farben: #2C2C2C, #FDF860, #000000, #FFFFFF, #97F5BB, #525DF4 */
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+
+}
+
+main{
+    background-color: #2C2C2C;
+    height:110vh;
+    text-align: center;
+}
+
+section{
+    display: inline-block;
+    text-align: center;
+    margin-top: 123px;
+}
+
+
+/* ====== SCORE ====== */
+
+#homescore , #awayscore {
+    font-family: 'Orbitron', sans-serif;
+    color: #FDF860;
+    font-size: 150px;
+    line-height: 188px;
+    background-color: #000;
+    border-radius: 30px;
+    padding: 113px 95px 114px;
+    margin: 37px;
+}
+
+#TeamAway{
+    margin-left: 150px;
+} 
+section:first-of-type div:first-of-type{
+    border: 5px solid #97F5BB;
+    border-radius: 40px;
+}
+
+section:last-of-type div:first-of-type{
+    border: 5px solid #525DF4;
+    border-radius: 40px;
+}
+
+
+/* ====== Team Names ====== */
+
+.home, .away{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 37px;
+    line-height: 46px;
+    color: #FFFFFF;
+    margin-top: -25px;
+    display: inline-block;
+    background-color: #2C2C2C;
+    padding: 0 15px;
+}
+
+/* ====== BUTTONS ====== */
+#teamhomeplus1, #teamhomeplus2, #teamhomeplus3, 
+#teamawayplus1, #teamawayplus2, #teamawayplus3 {
+    font-size: 37px;
+    border-radius: 20px;
+    color: #fff;
+    line-height: 44px;
+    padding: 31px;
+    margin-top: 120px;
+    border: none;
+}
+
+#teamhomeplus1, #teamhomeplus2, #teamhomeplus3{
+    background-color: #97F5BB;
+}
+
+#teamawayplus1, #teamawayplus2, #teamawayplus3{
+    background-color: #525DF4;
+}
+
+#teamhomeplus2, #teamawayplus2{
+    margin: 0 25px;
+}
+
+/* ====== RESET BUTTON ====== */
+#reset {
+    font-size: 16px;
+    line-height: 19px;
+    padding: 10px 41px;
+    background-color:#fff;
+    border: none;
+    border-radius: 10px;
+    display: block;
+    margin:  3% auto;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scorekeeper</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <main>
+
+        <!-- ====== Grünes Team HOME Links ====== -->
+        <section id="TeamHome">
+            <div>
+                <!-- ==p-tag ist der Score== -->
+                <p id="homescore">0</p>
+            </div>
+            <p class="home">HOME</p>
+            <div>
+                <button id="teamhomeplus1" onclick="addOne()">+1</button>
+                <button id="teamhomeplus2" onclick="addTwo()">+2</button>
+                <button id="teamhomeplus3" onclick="addThree()">+3</button>
+            </div>
+        </section>
+
+        <!-- ====== Blaues Team AWAY Rechts ====== -->
+        <section id="TeamAway">
+            <div>
+                <!-- ==p-tag ist der Score== -->
+                <p id="awayscore">0</p>
+            </div>
+            <p class="away">AWAY</p>
+            <div>
+                <button id="teamawayplus1" onclick="addOneright()">+1</button>
+                <button id="teamawayplus2" onclick="addTworight()">+2</button>
+                <button id="teamawayplus3" onclick="addThreeright()">+3</button>
+            </div>
+        </section>
+        <!-- ====== RESET BUTTON ====== -->
+        <button id="reset" onclick="reset()">Reset</button>
+    </main>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
