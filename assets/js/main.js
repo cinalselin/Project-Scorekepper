@@ -27,6 +27,7 @@ function addOne(){
     teamscore.innerHTML  = homescore;
 }
 
+
 let teamscore2 = document.querySelector('#homescore')
 
 function addTwo(){
@@ -91,14 +92,3 @@ function reset(){
     resetbutton.innerHTML = awayscore;
 }
 */
-
-
-// Coding Test
-
-// Schreibt eine function mit parametern die euer aktuelles alter ausgibt
-
-function addOne(scoreOne, scoreTwo) {
-    console.log(scoreOne + scoreTwo);
-};
-
-showAlter(2022, 1992);
