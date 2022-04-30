@@ -1,4 +1,4 @@
-// Schauen, ob die JS Datei eingebunden ist
+// JS Datei eingebunden 
 console.log('it works');
 
 /* Variablen deklarien 
@@ -6,14 +6,14 @@ z.B let xy = 0;
 
 Funktionen definieren 
 z.B function addOne(){
-    xy anweisungen
+   hier kommt die anweisung rein
 }
 Textinhalte mit .innerText bzw. .innerHTML verändern
 z.B xy.innerHTML  = homescore;
 
-=================== */
+*/
 
-// ======= GRUENES TEAM Plus 1 ======
+// ======= GRUENES TEAM ======
 
 let homescore = 0;
 let awayscore = 0;
@@ -27,16 +27,12 @@ function addOne(){
     teamscore.innerHTML  = homescore;
 }
 
-// ======= Plus 2 ======
-
 let teamscore2 = document.querySelector('#homescore')
 
 function addTwo(){
     homescore += 2;
     teamscore2.innerHTML  = homescore;
 }
-
-// ======= Plus 3 ======
 
 let teamscore3 = document.querySelector('#homescore')
 
@@ -46,7 +42,7 @@ function addThree(){
 }
 
 
-// ======= Blaues TEAM Plus 1 ======
+// ======= Blaues TEAM ======
 
 let teamscoreblue1 = document.querySelector('#awayscore')
 
@@ -54,7 +50,6 @@ function addOneright(){
     awayscore += 1;
     teamscoreblue1.innerHTML  = awayscore;
 }
-// ======= Plus 2 ======
 
 let teamscoreblue2 = document.querySelector('#awayscore')
 
@@ -62,8 +57,6 @@ function addTworight(){
     awayscore += 2;
     teamscoreblue1.innerHTML  = awayscore;
 }
-
-// ======= Plus 3 ======
 
 let teamscoreblue3 = document.querySelector('#awayscore')
 
@@ -74,12 +67,15 @@ function addThreeright(){
 
 
 // ====== RESET BUTTON ====== 
+let homescore0 = document.querySelector('#awayscore')
+let awayscore0 = document.querySelector('#homescore')
+
 
 function reset() {
-    let homescore = 0;
-    let awayscore = 0;
-    document.getElementById("homescore").innerHTML = homescore;
-    document.getElementById("awayscore").innerHTML = awayscore;
+    homescore = 0;
+    awayscore = 0;
+    homescore0.innerHTML = homescore;
+    awayscore0.innerHTML = awayscore;
   }
 
 
@@ -96,3 +92,13 @@ function reset(){
 }
 */
 
+
+// Coding Test
+
+// Schreibt eine function mit parametern die euer aktuelles alter ausgibt
+
+function addOne(scoreOne, scoreTwo) {
+    console.log(scoreOne + scoreTwo);
+};
+
+showAlter(2022, 1992);
